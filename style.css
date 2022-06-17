@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+main {
+    width: 50%;
+    height: 70vh;
+    padding: 3em;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: small;
+    font-weight: 300;
+    background-color: whitesmoke;
+
+}
+
+main div {
+    width: 25%;
+}
+
+
+
+img {
+    padding-bottom: 2em;
+    width: 20%;
+
+}
+
+
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    color: whitesmoke;
+    padding: 2em;
+    border-bottom-left-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+
+
+}
+
+
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    color: whitesmoke;
+    padding: 2em;
+
+}
+
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    color: whitesmoke;
+    padding: 2em;
+    border-bottom-right-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+
+}
+
+h3 {
+    padding-bottom: 1em;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 25px;
+    font-weight: 700;
+
+
+
+}
+
+button {
+
+    border-radius: 2em;
+    padding: 8px;
+    margin-top: 5em;
+    margin-bottom: 1em;
+    width: 15ch;
+    border-width: 0ch;
+    cursor: pointer;
+    font-size: smaller;
+    font-weight: bold;
+    background-color: whitesmoke;
+
+
+
+
+}
+
+
+
+.sedans button {
+
+    color: hsl(31, 77%, 52%);
+
+}
+
+.suvs button {
+    color: hsl(184, 100%, 22%);
+
+
+}
+
+.luxury button {
+
+    color: hsl(179, 100%, 13%);
+
+
+}
+
+button:active {
+    border: 2px solid whitesmoke;
+
+}
+
+.first-button:active {
+    background-color: hsl(31, 77%, 52%);
+    color: whitesmoke;
+}
+
+.second-button:active {
+    background-color: hsl(184, 100%, 22%);
+    color: whitesmoke;
+}
+
+.third-button:active {
+    background-color: hsl(179, 100%, 13%);
+    color: whitesmoke;
+}
