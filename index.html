@@ -5,53 +5,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flex</title>
-
-    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;800&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap" rel="stylesheet">
+    <title>Responsiveness and Media Queries</title>
     <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;800&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+
 </head>
-<header>
-    <button><a href="grid.html">Grid page</a></button>
-</header>
 
 <body>
     <main>
-        <div class="sedans">
-            <img src="icon-sedans.svg" alt="icon-sedans">
-            <h3>SEDANS</h3>
-            <P>Choose a sedan for its affordability and excelent fuel economy. Ideal for cruising in the city or on
-                your next road trip.
-            </P>
-            <button class="first-button">Learn More</button>
 
-        </div>
-        <div class="suvs">
-            <img src="icon-suvs.svg" alt="icon-suvs">
-            <h3>SUVS</h3>
-            <P>
-                Take on SUV for its spacious, power and versality. Perfect for your next family vacation and
-                off-road adventures.
-            </P>
-            <button class="second-button">Learn More</button>
-
-        </div>
-        <div class="luxury">
-            <img src="icon-luxury.svg" alt="icon-luxury">
-            <h3>LUXURY</h3>
-            <P>
-                Cruise in the best car brands without the bloated prices. Enjoy the enhaced comfort of a luxury
-                rental
-                and arrive in style.
-            </P>
-            <button class="third-button">Learn More</button>
+        <div class="left">
+            <h2>Learn to code by watching others</h2>
+            <p>See how experienced developers solve problems in real-time.</p>
+            <p>Watching scripted tutorials is great but understanding how developers think is invaluable.</p>
         </div>
 
+        <div class="right">
+            <div class="info">
+                <p> <b class="">Try it free 7 days</b> then $20/mo. thereafter</p>
+            </div>
+            <form action="">
 
 
+
+                <div class="form">
+                    <label for="firstname"></label>
+                    <input type="text" placeholder="First Name" maxlength="20" minlength="2"
+                        title="Last Name cannot be empty" required>
+                </div>
+
+                <div class="form">
+                    <label for="lastname"></label>
+                    <input type="text" placeholder="Last Name" maxlength="20" minlength="2"
+                        title="Last Name cannot be empty" required>
+                </div>
+
+                <div class="form">
+                    <label for="email"></label>
+                    <input type="email" placeholder="Email Address" maxlength="50" required>
+                </div>
+
+                <div class="form">
+                    <label for="password"></label>
+                    <input type="password" name="password" placeholder="Password" required
+                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                        title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more character">
+                </div>
+                <div class="form">
+                    <button>CLAIM YOUR FREE TRIAL</button>
+                </div>
+                <div class="terms">
+                    <p>By clicking on the button, you are agreeing to our <a href="#"><b class="">Terms and
+                                Services</b></a></p>
+                </div>
+
+            </form>
+        </div>
     </main>
-
 </body>
 
 </html>
